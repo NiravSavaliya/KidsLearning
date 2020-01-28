@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activities_horizontal_margin"
+    android:paddingRight="@dimen/activities_horizontal_margin"
+    tools:context=".Activity.WeekActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/animalstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/homebutton"
+        android:src="@drawable/days_of_week_heading"/>
+
+
+    <ScrollView
+        android:id="@+id/animalsscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/animalstext">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/sunday"
+                android:background="@drawable/boy_bg"
+                android:paddingLeft="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Sunday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/monday"
+                android:background="@drawable/girl_bg"
+                android:paddingRight="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Monday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/tuesday"
+                android:background="@drawable/boy_bg"
+                android:paddingLeft="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Tuesday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/wednesday"
+                android:background="@drawable/girl_bg"
+                android:paddingRight="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Wednesday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/thursday"
+                android:background="@drawable/boy_bg"
+                android:paddingLeft="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Thursday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/friday"
+                android:background="@drawable/girl_bg"
+                android:paddingRight="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Friday" />
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:id="@+id/saturday"
+                android:background="@drawable/boy_bg"
+                android:paddingLeft="-35dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Saturday" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

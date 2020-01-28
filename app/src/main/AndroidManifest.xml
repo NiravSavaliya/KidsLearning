@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidslearning">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newlogo_plain"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/newlogo_plain"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.BodyActivity2"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen"/>
+        <activity
+            android:name=".Activity.ContactUsActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.TwinkleLittleStarActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.RainGoAwayActivity"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.JohnyJohnyYesPapaActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.JackAndJillActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.IamLittleTeapotActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.HumptyDumptySatOnWallActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.EllieTheElephantActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.DingDongBellActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.ChubbyCheeksActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.BucklemyshoeActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.BitsOfPaperActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.BaaBlackSheepActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.ScoreActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.PuzzleLevel2"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.PuzzleLevel"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="landscape"
+
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.DrawingActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.PuzzleActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.VehicalActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.SeaanimalActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.AnimalActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.BirdsActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.VegetableActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.FlowerActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.FruitActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.BodyActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.ShapeActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.ColorActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.MonthActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.WeekActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.NumberActivity"
+            android:largeHeap="true"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Rhymes.RhymesActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.AlphabetActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.DashboardActivity"
+            android:largeHeap="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Activity.SignupActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:largeHeap="true"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

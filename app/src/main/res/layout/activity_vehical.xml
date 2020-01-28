@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activities_horizontal_margin"
+    android:paddingRight="@dimen/activities_horizontal_margin"
+    tools:context=".Activity.VehicalActivity"
+    android:background="@drawable/bg">
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/animalstext"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@id/homebutton"
+        android:src="@drawable/heading_know_the_vehicles"/>
+
+
+
+    <GridView
+        android:id="@+id/gridvehical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:layout_below="@id/homebutton"/>
+
+</RelativeLayout>

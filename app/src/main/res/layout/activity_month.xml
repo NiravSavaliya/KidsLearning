@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activities_horizontal_margin"
+    android:paddingRight="@dimen/activities_horizontal_margin"
+    tools:context=".Activity.MonthActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/animalstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/homebutton"
+        android:src="@drawable/month_of_the_year_heading"/>
+
+    <ImageButton
+        android:layout_below="@id/homebutton"
+        android:id="@+id/bg1"
+        android:background="@drawable/bg1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="resourceId:0x0" />
+
+    <ImageButton
+        android:id="@+id/bg2"
+        android:background="@drawable/bg2"
+        android:layout_width="50dp"
+        android:layout_below="@id/homebutton"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:contentDescription="resourceId:0x0" />
+
+    <ScrollView
+        android:id="@+id/animalsscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/animalstext">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="-5dp">
+
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/january"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="January" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/ferbruary"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="February" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/march"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="March" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/april"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="April" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/may"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="May" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/june"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="June" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/july"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="July" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/august"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="August" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/september"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="September" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/octomber"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="Octomber" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/november"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="November" />
+
+            <TextView
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/month"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/december"
+                android:background="@drawable/month_of_the_year_bg"
+                android:paddingLeft="12dp"
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="December" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
